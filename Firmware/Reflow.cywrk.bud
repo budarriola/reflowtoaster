@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Reflow</v>
+<v>Reflow\ReflowCtrl</v>
+<v>Reflow\ReflowCtrl\TopDesign</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Pins</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Analog</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Clocks</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Interrupts</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\DMA</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\System</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Directives</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Flash Security</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\EEPROM</v>
+<v>Reflow\ReflowCtrl\Source Files</v>
+<v>Reflow\ReflowCtrl\Source Files\CBuffer</v>
+<v>Reflow\ReflowCtrl\Source Files\CBuffer\circular_buffer.c</v>
+<v>Reflow\ReflowCtrl\Source Files\CBuffer\circular_buffer.h</v>
+<v>Reflow\ReflowCtrl\Source Files\Oven Curves</v>
+<v>Reflow\ReflowCtrl\Source Files\Oven Curves\Profile.c</v>
+<v>Reflow\ReflowCtrl\Source Files\Oven Curves\Profile.h</v>
+<v>Reflow\ReflowCtrl\Source Files\PID</v>
+<v>Reflow\ReflowCtrl\Source Files\PID\PID.c</v>
+<v>Reflow\ReflowCtrl\Source Files\PID\PID.h</v>
+<v>Reflow\ReflowCtrl\Source Files\PID\PID_AutoTune_v0.c</v>
+<v>Reflow\ReflowCtrl\Source Files\PID\PID_AutoTune_v0.h</v>
+<v>Reflow\ReflowCtrl\Source Files\TC\mesureTemp.c</v>
+<v>Reflow\ReflowCtrl\Source Files\TC\mesureTemp.h</v>
+<v>Reflow\ReflowCtrl\Source Files\TC\removeOffsetNoise.c</v>
+<v>Reflow\ReflowCtrl\Source Files\TC\removeOffsetNoise.h</v>
+<v>Reflow\ReflowCtrl\Source Files\TC\therm_calibrate.c</v>
+<v>Reflow\ReflowCtrl\Source Files\TC\therm_calibrate.h</v>
+<v>Reflow\ReflowCtrl\Source Files\USB</v>
+<v>Reflow\ReflowCtrl\Source Files\USB\usbUart.c</v>
+<v>Reflow\ReflowCtrl\Source Files\USB\usbUart.h</v>
+<v>Reflow\ReflowCtrl\Source Files\cyapicallbacks.h</v>
+<v>Reflow\ReflowCtrl\Source Files\main.c</v>
+<v>Reflow\ReflowCtrl\Source Files\main.h</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Reflow</v>
+<v>Reflow\ReflowCtrl</v>
+<v>Reflow\ReflowCtrl\TopDesign</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Pins</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Analog</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Clocks</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Interrupts</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\DMA</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\System</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Directives</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\Flash Security</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.cydwr\EEPROM</v>
+<v>Reflow\ReflowCtrl\Source Files</v>
+<v>Reflow\ReflowCtrl\Source Files\CBuffer</v>
+<v>Reflow\ReflowCtrl\Source Files\CBuffer\circular_buffer.c</v>
+<v>Reflow\ReflowCtrl\Source Files\CBuffer\circular_buffer.h</v>
+<v>Reflow\ReflowCtrl\Source Files\Oven Curves</v>
+<v>Reflow\ReflowCtrl\Source Files\Oven Curves\Profile.c</v>
+<v>Reflow\ReflowCtrl\Source Files\Oven Curves\Profile.h</v>
+<v>Reflow\ReflowCtrl\Source Files\PID</v>
+<v>Reflow\ReflowCtrl\Source Files\PID\PID.c</v>
+<v>Reflow\ReflowCtrl\Source Files\PID\PID.h</v>
+<v>Reflow\ReflowCtrl\Source Files\PID\PID_AutoTune_v0.c</v>
+<v>Reflow\ReflowCtrl\Source Files\PID\PID_AutoTune_v0.h</v>
+<v>Reflow\ReflowCtrl\Source Files\TC</v>
+<v>Reflow\ReflowCtrl\Source Files\USB</v>
+<v>Reflow\ReflowCtrl\Source Files\USB\usbUart.c</v>
+<v>Reflow\ReflowCtrl\Source Files\USB\usbUart.h</v>
+<v>Reflow\ReflowCtrl\Source Files\cyapicallbacks.h</v>
+<v>Reflow\ReflowCtrl\Source Files\main.c</v>
+<v>Reflow\ReflowCtrl\Source Files\main.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Reflow</v>
+<v>Reflow\ReflowCtrl</v>
+<v>Reflow\ReflowCtrl\TopDesign</v>
+<v>Reflow\ReflowCtrl\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Reflow</v>
+<v>Reflow\ReflowCtrl</v>
+<v>Reflow\ReflowCtrl\TopDesign</v>
+<v>Reflow\ReflowCtrl\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Reflow</v>
+<v>Reflow\ReflowCtrl</v>
+<v>Reflow\ReflowCtrl\CortexM3</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\Listing Files\circular_buffer.lst</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\Listing Files\mesureTemp.lst</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\Listing Files\PID.lst</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\Listing Files\PID_AutoTune_v0.lst</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\Listing Files\Profile.lst</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\Listing Files\removeOffsetNoise.lst</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\Listing Files\therm_calibrate.lst</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\ReflowCtrl.elf</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\ReflowCtrl.hex</v>
+<v>Reflow\ReflowCtrl\CortexM3\ARM_GCC_541\Debug\ReflowCtrl.map</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.gpdsc</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.rpt</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Reflow</v>
+<v>Reflow\ReflowCtrl</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl.rpt</v>
+<v>Reflow\ReflowCtrl\ReflowCtrl_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Reflow</v>
+<v>Reflow\ReflowCtrl</v>
+<v>Reflow\ReflowCtrl\PSoC 5LP Architecture TRM</v>
+<v>Reflow\ReflowCtrl\CY8C58LP Family Datasheet</v>
+<v>Reflow\ReflowCtrl\System Reference Guides</v>
+<v>Reflow\ReflowCtrl\System Reference Guides\cy_boot_v5_80</v>
+<v>Reflow\ReflowCtrl\ADC_DelSig_v3_30.pdf</v>
+<v>Reflow\ReflowCtrl\AMux_v1_80.pdf</v>
+<v>Reflow\ReflowCtrl\cy_clock_v2_20.pdf</v>
+<v>Reflow\ReflowCtrl\cy_constant_v1_0</v>
+<v>Reflow\ReflowCtrl\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Reflow\ReflowCtrl\cy_isr_v1_70</v>
+<v>Reflow\ReflowCtrl\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Reflow\ReflowCtrl\cy_pins_v2_20</v>
+<v>Reflow\ReflowCtrl\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Reflow\ReflowCtrl\Debouncer_v1_0.pdf</v>
+<v>Reflow\ReflowCtrl\DieTemp_v2_10.pdf</v>
+<v>Reflow\ReflowCtrl\EEPROM_v3_0.pdf</v>
+<v>Reflow\ReflowCtrl\Gnd_v1_0.pdf</v>
+<v>Reflow\ReflowCtrl\not_v1_0</v>
+<v>Reflow\ReflowCtrl\not_v1_0\not_v1_0.pdf</v>
+<v>Reflow\ReflowCtrl\OpAmp_v1_90.pdf</v>
+<v>Reflow\ReflowCtrl\PWM_v3_30.pdf</v>
+<v>Reflow\ReflowCtrl\USBFS_v3_20.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Reflow</v>
+<v>Reflow\ReflowCtrl</v>
+<v>Reflow\ReflowCtrl\PSoC 5LP Architecture TRM</v>
+<v>Reflow\ReflowCtrl\CY8C58LP Family Datasheet</v>
+<v>Reflow\ReflowCtrl\System Reference Guides</v>
+<v>Reflow\ReflowCtrl\System Reference Guides\cy_boot_v5_80</v>
+<v>Reflow\ReflowCtrl\ADC_DelSig_v3_30.pdf</v>
+<v>Reflow\ReflowCtrl\AMux_v1_80.pdf</v>
+<v>Reflow\ReflowCtrl\cy_clock_v2_20.pdf</v>
+<v>Reflow\ReflowCtrl\cy_constant_v1_0</v>
+<v>Reflow\ReflowCtrl\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Reflow\ReflowCtrl\cy_isr_v1_70</v>
+<v>Reflow\ReflowCtrl\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Reflow\ReflowCtrl\cy_pins_v2_20</v>
+<v>Reflow\ReflowCtrl\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Reflow\ReflowCtrl\Debouncer_v1_0.pdf</v>
+<v>Reflow\ReflowCtrl\DieTemp_v2_10.pdf</v>
+<v>Reflow\ReflowCtrl\EEPROM_v3_0.pdf</v>
+<v>Reflow\ReflowCtrl\Gnd_v1_0.pdf</v>
+<v>Reflow\ReflowCtrl\not_v1_0</v>
+<v>Reflow\ReflowCtrl\not_v1_0\not_v1_0.pdf</v>
+<v>Reflow\ReflowCtrl\OpAmp_v1_90.pdf</v>
+<v>Reflow\ReflowCtrl\PWM_v3_30.pdf</v>
+<v>Reflow\ReflowCtrl\USBFS_v3_20.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs />
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="712, 720" SelectedTabbedMdiWindow="770b3c12-263c-4812-b0f5-1743a7f5c410"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="770b3c12-263c-4812-b0f5-1743a7f5c410" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
