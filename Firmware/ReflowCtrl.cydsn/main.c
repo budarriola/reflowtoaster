@@ -55,6 +55,8 @@ pidCtrl heater1;
 
 uint8_t runningProfile=0;
 
+tempProfile currentProfile;
+
 //set temp in C
 float target = 100;
 
@@ -79,7 +81,6 @@ int main(void)
     ADC_Start();
     PWM_Heater_Start();
     PWM_Heater_WriteCompare(0);//turn heater off
-    setupProfiles();
     ADCMux_Select(0);
     
     
@@ -265,18 +266,18 @@ void runMyProfile(float targetTemp){
     #warning "i left off here with the profile, cleanup the profile stop sequence"
     
     if (targetTemp!=0){
-        myPTarget = runProfile(&snPb_1,tc_1_temp,MESUREMENT_PERIOD_MS);
+        myPTarget = runProfile(&currentProfile,tc_1_temp,MESUREMENT_PERIOD_MS);
         sprintf(temp_string, "Target Temp : %5.2f\n\r", myPTarget);
         writeStringToHost(temp_string);
     }else{
         //clear the profile state and set target temp to 0
-        endProfile(&snPb_1);
+        endProfile(&currentProfile);
         myPTarget=0;
     }
     
     if (myPTarget==0){
         runningProfile=0;
-        endProfile(&snPb_1);
+        endProfile(&currentProfile);
     }
     
     pidResult = runPid(&heater1, tc_1_temp, myPTarget);
@@ -331,7 +332,21 @@ void processCommand(){
             
         case USB_COMMAND_START_REFLOW:
             if (!runningProfile){
+                switch(atoi((const char*)&rxString[1])){
+                    case(1):
+                        memcpy(&currentProfile, &profile_snPb,sizeof(profile_snPb));
+                        break;
+                    case(2):
+                        memcpy(&currentProfile, &profile_lf,sizeof(profile_lf));
+                        break;
+                    default:
+                    return;
+                        sprintf(temp_string, "bad profile, 1 for snpb, 2 for leadfree\n\r");                
+                        writeStringToHost(temp_string);
+                        break;
+                }
                 runningProfile=1;
+                
                 sprintf(temp_string, "Running Pid Profile\n\r");                
                 writeStringToHost(temp_string);
             }

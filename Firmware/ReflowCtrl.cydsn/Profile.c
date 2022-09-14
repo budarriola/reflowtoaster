@@ -14,20 +14,32 @@
 
 #include "usbUart.h"
 
-tempProfile snPb_1;
-void setupProfiles(){
-    
-    snPb_1.preheatDegreesPerS=3;
-    snPb_1.soakStart=100;
-    snPb_1.soakTarget=150;
-    snPb_1.soakTime=90000;
-    snPb_1.reflowTarget=225;
-    snPb_1.reflowTime=5000;
-    snPb_1.msElapsed=0;
-    snPb_1.lastTemp=25;
-    snPb_1.state=OFF;
-    snPb_1.soakSteps=4;
-}
+const tempProfile profile_snPb={
+    .preheatDegreesPerS=3,
+    .soakStart=100,
+    .soakTarget=150,
+    .soakTime=90000,
+    .reflowTarget=225,
+    .reflowTime=5000,
+    .msElapsed=0,
+    .lastTemp=25,
+    .state=OFF,
+    .soakSteps=4,
+};
+
+const tempProfile profile_lf={
+    .preheatDegreesPerS=3,
+    .soakStart=150,
+    .soakTarget=200,
+    .soakTime=110000,
+    .reflowTarget=245,
+    .reflowTime=5000,
+    .msElapsed=0,
+    .lastTemp=25,
+    .state=OFF,
+    .soakSteps=4,
+};
+
 //returns target temp or 0 if the cycle has completed
 float runProfile(tempProfile* myProfile, float currentTemp, unsigned int msElapsed){
     float ret;

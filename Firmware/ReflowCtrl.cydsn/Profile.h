@@ -34,7 +34,9 @@
         unsigned int soakSteps;
     }tempProfile;
     
-    extern tempProfile snPb_1;
+    extern const tempProfile profile_snPb;
+    extern const tempProfile profile_lf;
+    
     //returns target temp
     float runProfile(tempProfile* myProfile, float currentTemp, unsigned int msElapsed);
     
